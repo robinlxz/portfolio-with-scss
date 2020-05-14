@@ -14,8 +14,12 @@
   background-size: cover;
 }
 
+.home__hi {
+  margin-bottom: 0.3rem;
+}
+
 .home__name {
-  font-size: 5rem;
+  font-size: 3rem;
   padding-bottom: 1rem;
   margin-bottom: 1rem;
   border-bottom: 2px solid #fff;
@@ -24,6 +28,10 @@
 .home__name--last {
   color: #ff652f;
   font-weight: 700;
+}
+
+.home__titles {
+  font-size: 1.4rem;
 }
 
 .menu-btn {

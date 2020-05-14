@@ -12,8 +12,12 @@
     url('../img/model-1.jpg') center top;
   background-size: cover;
 
+  &__hi {
+    margin-bottom: 0.3rem;
+  }
+
   &__name {
-    font-size: 5rem;
+    font-size: 3rem;
     padding-bottom: 1rem;
     margin-bottom: 1rem;
     border-bottom: 2px solid set-text-color($primary-color);
@@ -22,5 +26,9 @@
       color: $secondary-color;
       font-weight: 700;
     }
+  }
+
+  &__titles {
+    font-size: 1.4rem;
   }
 }
